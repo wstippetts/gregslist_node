@@ -1,7 +1,7 @@
 import { housesService } from "../services/HousesService.js";
 import BaseController from "../utils/BaseController.js";
 
-class HousesController extends BaseController {
+export class HousesController extends BaseController {
   constructor() {
     super('api/houses')
     this.router
